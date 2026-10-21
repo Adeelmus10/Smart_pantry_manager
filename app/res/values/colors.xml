@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Brand & Action Bar Colors -->
+    <color name="app_primary">#0030FF</color>
+    <color name="app_primary_dark">#0030FF</color>
+    <color name="app_primary_light">#DCFCE7</color>
+    <color name="app_accent">#4700A4</color>
+
+    <!-- Screen & Card Container Backgrounds -->
+    <color name="screen_background">#F8FAFC</color>
+    <color name="pantry_card_background">#FFFFFF</color>
+    <color name="pantry_card_stroke">#E2E8F0</color>
+    <color name="section_divider">#CBD5E1</color>
+
+    <!-- High Contrast Typography -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_hint">#94A3B8</color>
+
+    <!-- Expiry Warning Badge Colors -->
+    <color name="expiry_amber_text">#B45309</color>
+    <color name="expiry_amber_background">#FEF3C7</color>
+
+    <!-- Recipe Match Success Badge Colors -->
+    <color name="success_green_text">#15803D</color>
+    <color name="success_green_background">#DCFCE7</color>
+
+    <!-- Delete Action & Error Badge Colors -->
+    <color name="danger_red_text">#DC2626</color>
+    <color name="danger_red_background">#FEE2E2</color>
+
+    <!-- Standard Theme Aliases -->
+    <color name="primary">@color/app_primary</color>
+    <color name="primary_dark">@color/app_primary_dark</color>
+    <color name="primary_light">@color/app_primary_light</color>
+    <color name="accent">@color/app_accent</color>
+    <color name="background">@color/screen_background</color>
+    <color name="card_bg">@color/pantry_card_background</color>
+    <color name="card_stroke">@color/pantry_card_stroke</color>
+    <color name="divider">@color/section_divider</color>
+
+    <color name="green_success">@color/success_green_text</color>
+    <color name="green_bg">@color/success_green_background</color>
+    <color name="amber_warning">@color/expiry_amber_text</color>
+    <color name="amber_bg">@color/expiry_amber_background</color>
+    <color name="red_error">@color/danger_red_text</color>
+    <color name="red_bg">@color/danger_red_background</color>
+</resources>

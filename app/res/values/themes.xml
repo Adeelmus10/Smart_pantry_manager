@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SmartPantryManager" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="colorPrimaryVariant">@color/app_primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/app_accent</item>
+        <item name="colorSecondaryVariant">@color/app_primary_dark</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- Window & Background. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/screen_background</item>
+
+        <!-- Cards & Components -->
+        <item name="cardBackgroundColor">@color/pantry_card_background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+</resources>
