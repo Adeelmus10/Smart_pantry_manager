@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/card_bg"
+    android:elevation="12dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/nav_btn_pantry"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/nav_icon_pantry"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:contentDescription="@string/nav_pantry"
+            android:src="@drawable/ic_pantry" />
+
+        <TextView
+            android:id="@+id/nav_text_pantry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/nav_pantry"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_btn_suggestions"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/nav_icon_suggestions"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:contentDescription="@string/nav_suggestions"
+            android:src="@drawable/ic_recipes" />
+
+        <TextView
+            android:id="@+id/nav_text_suggestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/nav_suggestions"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_btn_settings"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/nav_icon_settings"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:contentDescription="@string/nav_settings"
+            android:src="@drawable/ic_settings" />
+
+        <TextView
+            android:id="@+id/nav_text_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/nav_settings"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
